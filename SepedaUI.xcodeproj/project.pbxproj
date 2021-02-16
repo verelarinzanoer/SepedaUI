@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA47A5ED25D76A00003E688A /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47A5EC25D76A00003E688A /* DataModel.swift */; };
+		FA47A5F125D76AEE003E688A /* GlobalObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47A5F025D76AEE003E688A /* GlobalObject.swift */; };
 		FAA6BAD325CA4D0100E868FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA6BAD225CA4D0100E868FE /* AppDelegate.swift */; };
 		FAA6BAD525CA4D0100E868FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA6BAD425CA4D0100E868FE /* SceneDelegate.swift */; };
 		FAA6BAD725CA4D0100E868FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA6BAD625CA4D0100E868FE /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA47A5EC25D76A00003E688A /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		FA47A5F025D76AEE003E688A /* GlobalObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalObject.swift; sourceTree = "<group>"; };
 		FAA6BACF25CA4D0100E868FE /* SepedaUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SepedaUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA6BAD225CA4D0100E868FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAA6BAD425CA4D0100E868FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				FAA6BADD25CA4D0500E868FE /* LaunchScreen.storyboard */,
 				FAA6BAE025CA4D0500E868FE /* Info.plist */,
 				FAA6BADA25CA4D0500E868FE /* Preview Content */,
+				FA47A5EC25D76A00003E688A /* DataModel.swift */,
+				FA47A5F025D76AEE003E688A /* GlobalObject.swift */,
 			);
 			path = SepedaUI;
 			sourceTree = "<group>";
@@ -145,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA47A5F125D76AEE003E688A /* GlobalObject.swift in Sources */,
 				FAA6BAD325CA4D0100E868FE /* AppDelegate.swift in Sources */,
+				FA47A5ED25D76A00003E688A /* DataModel.swift in Sources */,
 				FAA6BAD525CA4D0100E868FE /* SceneDelegate.swift in Sources */,
 				FAA6BAD725CA4D0100E868FE /* ContentView.swift in Sources */,
 			);
